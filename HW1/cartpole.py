@@ -124,6 +124,13 @@ while True:
     loss.backward()
     nn.utils.clip_grad_norm_(policy_net.parameters(), max_norm=1)
     optimizer.step()
+    
+    if (episode + 1) % 100 == 0:
+        print("-"*50)
+        print(f"Episode {episode+1} finished after {t} time steps.")
+        print(f"Episode {episode+1} average time per 100: {np.mean(episode_lengths[-100:])} time steps.")
+        print(f"Episode {episode + 1} rolling loss: {np.mean(loss_list[-100:])}")
+        print("-"*50)
 
     if t >= max and cooldown <= 0:
 
@@ -180,7 +187,7 @@ plt.ylabel('Average Length per 100')
 
 plt.show()
 
-plt.savefig('results/cartpole_rolling_duration.png', dpi=300, format='png', bbox_inches='tight')
+plt.savefig('./HW1/results/cartpole_rolling_duration.png', dpi=300, format='png', bbox_inches='tight')
 
 plt.figure(figsize=(10, 6))
 plt.plot(loss_avg, marker='o')
@@ -191,4 +198,4 @@ plt.ylabel('Average Loss per 10')
 
 plt.show()
 
-plt.savefig('results/cartpole_rolling_loss.png', dpi=300, format='png', bbox_inches='tight')
+plt.savefig('./HW1/results/cartpole_rolling_loss.png', dpi=300, format='png', bbox_inches='tight')
