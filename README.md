@@ -9,7 +9,7 @@ git clone https://github.com/davidwmcdevitt/MLDSRL
 CartPole Environment trains until 
    
 ```
-git clone https://github.com/davidwmcdevitt/MLDSRL
+python MLDSRL/HW1/cartpole.py
 ```
 
 ![CartPole-1](./results/cartpole_rolling_duration.png)
