@@ -12,10 +12,6 @@ Original file is located at
 import gym
 import numpy as np
 import matplotlib.pyplot as plt
-from IPython.display import display as ipy_display
-from pyvirtualdisplay import Display
-import imageio
-from IPython.display import Image
 import torch
 import torch.nn as nn
 import torch.optim as optim
