@@ -87,18 +87,6 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 policy_net = PolicyNetwork().to(device)
 
-screen.shape
-
-window = torch.zeros((4, 80, 80))
-window.shape
-
-window = torch.cat((screen, window), dim=0)
-
-output = policy_net(window.unsqueeze(0).to(device))
-
-print("Output shape:", output.shape)
-print("Output probabilities:", output)
-
 def get_action(policy_net, state, window, prior, method):
   if method == "random":
     action = np.random.choice(2) + 2
