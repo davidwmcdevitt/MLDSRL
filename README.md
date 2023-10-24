@@ -13,7 +13,7 @@ _____________________________________________
 1. CartPole Submission
    
 ```
-python MLDSRL/HW1/cartpole_base.py
+python MLDSRL/HW2/cartpole_base.py
 ```
 ![CartPole-1](./HW2/results/cartpole_rolling_dur.png)
 ![CartPole-2](./HW2/results/cartpole_policy_loss.png)
@@ -24,11 +24,13 @@ CartPole trains until a streak of 10 consecutive episodes with a duration greate
 2. Pong Submission
 
 ```
-python MLDSRL/HW1/pong_base.py
+python MLDSRL/HW2/pong_baseline_v2.py
 ```
-![Pong-1](./HW1/results/pong_avg_life.png)
-![Pong-2](./HW1/results/pong_avg_reward.png)
-![Pong-3](./HW1/results/pong_loss.png)
+![Pong-1](./HW2/results/pong_avg_life.png)
+![Pong-2](./HW2/results/pong_avg_reward.png)
+![Pong-3](./HW2/results/pong_loss.png)
+![Pong-4](./HW2/results/pong_rolling_val_loss.png)
+
 
 _____________________________________________
 
