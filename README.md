@@ -3,7 +3,34 @@
 ```
 git clone https://github.com/davidwmcdevitt/MLDSRL
 ```
+_____________________________________________
 
+HW3 Submission
+
+_____________________________________________
+
+1. CartPole Submission
+   
+```
+python MLDSRL/HW3/cartpole_dqn.py
+```
+![CartPole-1](./HW3/results/cartpole_lengths.png)
+![CartPole-2](./HW3/results/cartpole_loss.png)
+![CartPole-3](./HW3/results/cartpole_max_q.png)
+
+500 Episodes Rollout Test:
+Mean: 199.37
+SD: 5.82
+
+2. Ms. Pacman Submission
+
+```
+python MLDSRL/HW2/mspacman_dqn.py
+```
+![Pong-1](./HW3/results/pong_avg_life.png)
+![Pong-2](./HW3/results/pong_avg_reward.png)
+![Pong-3](./HW3/results/pong_loss.png)
+![Pong-4](./HW3/results/pong_rolling_val_loss.png)
 _____________________________________________
 
 HW2 Submission
