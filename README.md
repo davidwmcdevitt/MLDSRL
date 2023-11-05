@@ -27,7 +27,7 @@ SD: 5.82
 ```
 python MLDSRL/HW2/mspacman_dqn.py
 ```
-![MsPacman-1](./HW3/results/mspacman_reward.png)
+![MsPacman-1](./HW3/results/mspacman_rewards.png)
 _____________________________________________
 
 HW2 Submission
