@@ -27,10 +27,7 @@ SD: 5.82
 ```
 python MLDSRL/HW2/mspacman_dqn.py
 ```
-![Pong-1](./HW3/results/pong_avg_life.png)
-![Pong-2](./HW3/results/pong_avg_reward.png)
-![Pong-3](./HW3/results/pong_loss.png)
-![Pong-4](./HW3/results/pong_rolling_val_loss.png)
+![MsPacman-1](./HW3/results/mspacman_reward.png)
 _____________________________________________
 
 HW2 Submission
