@@ -27,10 +27,15 @@ SD: 5.82
 ```
 python MLDSRL/HW2/mspacman_dqn.py
 ```
-![Pong-1](./HW3/results/pong_avg_life.png)
-![Pong-2](./HW3/results/pong_avg_reward.png)
-![Pong-3](./HW3/results/pong_loss.png)
-![Pong-4](./HW3/results/pong_rolling_val_loss.png)
+![MsPacman-1](./HW3/results/mspacman_rewards_1500.png)
+![MsPacman-2](./HW3/results/mspacman_rewards.png)
+![MsPacman-3](./HW3/results/mspacman_max_q_episodes.png)
+![MsPacman-4](./HW3/results/mspacman_rolling_rewards.png)
+![MsPacman-5](./HW3/results/mspacman_loss.png)
+
+500 Episodes Rollout Test:
+Mean: 1803.74
+SD: 669.7
 _____________________________________________
 
 HW2 Submission
