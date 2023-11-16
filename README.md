@@ -5,6 +5,21 @@ git clone https://github.com/davidwmcdevitt/MLDSRL
 ```
 _____________________________________________
 
+HW4 Submission - Federated Learning
+
+_____________________________________________
+
+Part 1
+```
+python MLDSRL/HW4/fedavg.py
+```
+Part 2
+```
+python MLDSRL/HW4/fedavg_distributed.py
+```
+Report: https://docs.google.com/document/d/1cgRGlaOCRhLXVbQCCI1M_jrQSrXmgreMIUHAYgwmn68/edit?usp=sharing
+_____________________________________________
+
 HW3 Submission
 
 _____________________________________________
