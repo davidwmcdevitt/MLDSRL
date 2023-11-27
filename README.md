@@ -3,6 +3,18 @@
 ```
 git clone https://github.com/davidwmcdevitt/MLDSRL
 ```
+
+_____________________________________________
+
+HW5 Submission - Differential Privacy
+
+_____________________________________________
+
+```
+python MLDSRL/HW4/fedavg_differentialprivacy.py
+```
+
+Report: https://docs.google.com/document/d/120MVXAx2WUGw36rsecIOm8ktg8ULs5H9o3hg87ZZ2Lg/edit?usp=sharing
 _____________________________________________
 
 HW4 Submission - Federated Learning
