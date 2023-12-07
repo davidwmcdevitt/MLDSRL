@@ -6,7 +6,23 @@ git clone https://github.com/davidwmcdevitt/MLDSRL
 
 _____________________________________________
 
-HW5 Submission - Differential Privacy
+HW4 Submission - Genetic Algorithm and Bayesian Optimization
+
+_____________________________________________
+
+Genetic Algorithm
+
+```
+python MLDSRL/HW5/automl.py
+```
+
+Bayesian Optimization
+```
+python MLDSRL/HW5/bayesianoptimization.py
+```
+_____________________________________________
+
+HW3.5 Submission - Differential Privacy
 
 _____________________________________________
 
@@ -17,7 +33,7 @@ python MLDSRL/HW4/fedavg_differentialprivacy.py
 Report: https://docs.google.com/document/d/120MVXAx2WUGw36rsecIOm8ktg8ULs5H9o3hg87ZZ2Lg/edit?usp=sharing
 _____________________________________________
 
-HW4 Submission - Federated Learning
+HW3 Submission - Federated Learning
 
 _____________________________________________
 
